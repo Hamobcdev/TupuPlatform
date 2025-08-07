@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = 'test'
+solc_version = '0.8.21'
+evm_version = 'paris'  # Use 'paris' or 'shanghai' depending on opcodes used
+
+[rpc_endpoints]
+polygon_amoy = "https://rpc-amoy.polygon.technology"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
